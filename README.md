@@ -3,6 +3,10 @@
 A real-time maze generator implemented in C using the 
 Depth-First Search backtracking algorithm and visualized with SDL2.
 
+## Maze Generation Demo
+
+![Maze Demo](demo/maze.gif)
+
 ## Features
 
 - Randomized DFS maze generation
@@ -31,7 +35,5 @@ gcc main.c maze.c renderer.c -o maze `sdl2-config --cflags --libs`
 ./maze
 
 
-## Maze Generation Demo
 
-![Maze Demo](demo/maze.gif)
 
