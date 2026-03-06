@@ -25,6 +25,13 @@ Requires SDL2.
 
 gcc main.c maze.c renderer.c -o maze `sdl2-config --cflags --libs`
 
+
 ## Run
 
 ./maze
+
+
+## Maze Generation Demo
+
+![Maze Demo](demo/maze.gif)
+

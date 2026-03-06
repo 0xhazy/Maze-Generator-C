@@ -30,7 +30,7 @@ int main() {
   }
 
   SDL_Renderer *renderer =
-      SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+      SDL_CreateRenderer(window, -1, SDL_RENDERER_SOFTWARE);
   if (!renderer) {
     printf("SDL_CreateRenderer Error: %s\n", SDL_GetError());
     SDL_DestroyWindow(window);
